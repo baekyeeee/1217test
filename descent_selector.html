@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    input:checked + label {
+  color: green;
+  font-weight: bold;
+}
+    .class>p{
+        background-color: gray;
+    }
+    h2 ~ p,span{
+        color: pink;
+    }
+    .second > span{
+        font-size: 40px;
+    }
+    /* input + button{
+        color: blue;
+    } */
+    input[type="password"]{
+        color: brown;
+    }
+    .seco button:hover{
+        background-color: red;
+        color: white;
+    }
+    a:hover{
+        text-decoration: overline;
+    }
+    button:hover{
+    background-color: yellow;
+    }
+    button:active{
+        background-color: blue;
+    }
+    .class>p::first-letter{
+font-size: 60px;
+    }
+   </style>
+</head>
+<body>
+    <div>
+    <input type="checkbox" id="agree">
+    <label for="agree">我同意條款</label>
+    name<input type="text" name="" id="">
+    </div>
+    <button>login</button>
+    <input type="password">
+
+    <div class="class">
+        <p>第一段</p>
+        <div class="seco">
+            <p>第二段</p>
+            <button>GOOD</button>
+            <div id="test">okkkk</div>
+        </div>
+<div class="second">
+  <h2>標題</h2>
+  <span>測試用文字</span>
+  <p>第一段</p>
+    <span>第一段文字
+        <a href="#jjj">歡迎</a>
+    </span>
+
+  <p>第二段</p>
+  <span>文字</span>
+</div>
+    </div>
+    
+</body>
+</html>
